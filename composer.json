@@ -1,0 +1,23 @@
+{
+    "name": "2wls/jemmoudi-films-api",
+    "description": "simple API about movies",
+    "require": {
+        "slim/slim": "^2.6",
+        "voodoophp/voodorm": "^2.1",
+        "akrabat/rka-slim-controller": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers/",
+            "app/models/",
+            "app/repositories/"
+        ]
+    },
+    "license": "",
+    "authors": [
+        {
+            "name": "Jemmoudi",
+            "email": "med.jemmoudi@gmail.com"
+        }
+    ]
+}
